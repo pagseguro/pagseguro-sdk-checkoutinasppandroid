@@ -57,7 +57,7 @@ A equipe do PagSeguro dará todo o suporte para sua integração do Checkout in 
 
 **Instalação**
 
-[Saiba como integrar seu aplicativo iOS utilizando o Checkout Transparente](https://dev.pagseguro.uol.com.br/documentacao/aplicativo-pagseguro/checkout-in-app/checkout-in-app-transparente-ios)
+[Saiba como integrar seu aplicativo Android utilizando o Checkout in App](https://dev.pagseguro.uol.com.br/documentacao/pagamento-online/aplicativo-pagseguro/checkout-in-app/checkout-in-app-android)
 
 
 * **
