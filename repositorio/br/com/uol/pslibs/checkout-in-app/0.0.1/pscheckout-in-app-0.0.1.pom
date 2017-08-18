@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.uol.pslibs</groupId>
-  <artifactId>pscheckoutinapp</artifactId>
+  <artifactId>pscheckout-in-app</artifactId>
   <version>0.0.1</version>
   <packaging>aar</packaging>
   <name>PSCheckout in App Android Library</name>
