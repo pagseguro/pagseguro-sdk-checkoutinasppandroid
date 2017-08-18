@@ -32,7 +32,7 @@ A biblioteca Checkout in App tem como foco auxiliar desenvolvedores que desejam 
 
 •    Cenário Exemplo: Solução de pagamentos com Checkout in App Carteira. A empresa X desenvolve um aplicativo para seus clientes permitindo-os efetuar pagamento de serviços prestados ou itens (produtos) vendidos. Neste cenário o aplicativo da empresa X faz uso da biblioteca PagSeguro "Checkout in App" autorizando a Library com a sua conta PagSeguro (E-mail vendedor e Token referente da conta). Os clientes da empresa X que utilizam o aplicativo para realizar o pagamento em um ambiente seguro para autenticação do usuário utilizando uma conta PagSeguro (usuário comprador). Após autenticação o usuário do aplicativo da empresa X poderá realizar pagamentos utilizando sua conta PagSeguro(usuário comprador). A empresa X receberá os pagamentos em sua conta PagSeguro configurada como vendedor na Lib Checkout in App.
 
-•    Cenário Exemplo: Solução de pagamentos com Checkout in App Transparente. A empresa X desenvolve um aplicativo para seus clientes permitindo-os efetuar pagamento de serviços prestados ou itens (produtos) vendidos. Neste cenário o aplicativo da empresa X faz uso da biblioteca PagSeguro "Checkout in App" autorizando a Library com a sua conta PagSeguro (E-mail vendedor e Token referente da conta). Os clientes da empresa X realizam o pagamento no app sem sair do App, todos os dados do cartão são passados no próprio aplicativo da empresa. A empresa X receberá os pagamentos em sua conta PagSeguro configurada como vendedor na Lib Checkout in App.
+•    Cenário Exemplo: Solução de pagamentos com Checkout in App. A empresa X desenvolve um aplicativo para seus clientes permitindo-os efetuar pagamento de serviços prestados ou itens (produtos) vendidos. Neste cenário o aplicativo da empresa X faz uso da biblioteca PagSeguro "Checkout in App" autorizando a Library com a sua conta PagSeguro (E-mail vendedor e Token referente da conta). Os clientes da empresa X realizam o pagamento no app sem sair do App, todos os dados do cartão são passados no próprio aplicativo da empresa. A empresa X receberá os pagamentos em sua conta PagSeguro configurada como vendedor na Lib Checkout in App.
 
 * **
 
@@ -48,7 +48,7 @@ O Checkout in App está operando em fase de piloto. Para fazer parte deste pilot
 
 - Enviar um e-mail para checkoutinapp@pagseguro.com.br informando um telefone de contato e o e-mail da sua conta PagSeguro.  
 Se você for selecionado para o piloto, nossa equipe entrará em contato com você para obter mais informações e liberar a funcionalidade para a sua conta;
-- Implementar o Checkout Transparente in App em sua aplicação;
+- Implementar o Checkout in App em sua aplicação;
 - Encaminhar os feedbacks para a nossa equipe. Nesta fase do projeto a sua opinião será extremamente importante.
 
 A equipe do PagSeguro dará todo o suporte para sua integração do Checkout in App com a sua aplicação.
