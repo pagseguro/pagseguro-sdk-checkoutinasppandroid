@@ -1,0 +1,243 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:fitsSystemWindows="false"
+    tools:context="br.com.uol.pslibs.lojinhapagseguro.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBFBFB"
+        android:fitsSystemWindows="false"
+        tools:context="br.com.uol.pslibs.lojinhapagseguro.MainActivity">
+
+        <br.com.uol.pslibs.checkout_in_app.wallet.view.components.PaymentButton
+            android:id="@+id/wallet_payment_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+        </br.com.uol.pslibs.checkout_in_app.wallet.view.components.PaymentButton>
+
+        <TextView
+            android:id="@+id/tv_other_payment_method_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="OUTRAS FORMAS DE PAGAMENTO "
+            android:textSize="15sp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/gray_btn_bg_color"
+            android:layout_below="@+id/wallet_payment_button"
+            android:fontFamily="sans-serif-medium"/>
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/tv_other_payment_method_title"
+            android:background="#C3C3C5"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cd_credit_card_default"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/view_divider"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:id="@+id/layout_card_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_credit_card_default"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/card"/>
+
+                <TextView
+                    android:id="@+id/tv_label_card_defaul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_credit_card_default"
+                    android:layout_below="@+id/iv_credit_card_default"
+                    android:text="Cartão de crédito"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/text_item_color"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/iv_check_card_default"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_check"/>
+
+                <View
+                    android:id="@+id/view_divider_card_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/tv_label_card_defaul"
+                    android:background="#C3C3C5"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cd_credit_card_gateway"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/cd_credit_card_default"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:id="@+id/layout_card_gateway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_credit_card_gateway"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/card"/>
+
+                <TextView
+                    android:id="@+id/tv_label_card_gateway"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_credit_card_gateway"
+                    android:layout_below="@+id/iv_credit_card_gateway"
+                    android:text="Cartão de crédito (gateway)"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/text_item_color"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/iv_check_card_gateway"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_check"/>
+
+                <View
+                    android:id="@+id/view_divider_card_gateway"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/tv_label_card_gateway"
+                    android:background="#C3C3C5"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cd_billet"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/cd_credit_card_gateway"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:id="@+id/layout_billet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_billet"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/bar_code"/>
+
+                <TextView
+                    android:id="@+id/tv_label_billet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_billet"
+                    android:layout_below="@+id/iv_billet"
+                    android:text="Boleto"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/text_item_color"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/iv_check_billet"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_check"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:id="@+id/view_divider_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cd_billet"
+            android:background="#C3C3C5"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/txt_billet_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/view_divider_bottom"
+            android:text="*Tarifa de boleto = R$ 1,00. Tarifa aplicada para cobrir os custos de gestão de risco do meio de pagamento."
+            android:layout_margin="16dp"
+            android:textColor="@color/text_item_color"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/bt_pay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/txt_billet_message"
+            android:layout_margin="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:visibility="gone"
+            android:text="Pagar"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector"/>
+
+    </RelativeLayout>
+</ScrollView>

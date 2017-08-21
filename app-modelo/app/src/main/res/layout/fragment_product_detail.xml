@@ -1,0 +1,122 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="br.com.uol.pslibs.lojinhapagseguro.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_product"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cafe"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:id="@+id/card_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/iv_product"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_productname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/product_name"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#555"/>
+
+            <TextView
+                android:id="@+id/tv_productdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/product_description"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#666"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.01dp"
+            android:layout_margin="16dp"
+            android:layout_below="@+id/card_product"
+            android:background="#666"/>
+
+        <LinearLayout
+            android:id="@+id/card_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:textColor="#777"
+                        android:text="R$"/>
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:text="0,00"
+                        android:textColor="#555"
+                        android:textSize="24sp"
+                        android:fontFamily="sans-serif-medium"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/bt_pay"
+                    android:clickable="true"
+                    android:layout_width="140dp"
+                    android:layout_height="64dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:background="@color/color_accent"
+                    android:layout_marginBottom="16dp"
+                    android:textAllCaps="false"
+                    android:text="@string/btn_buy"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
