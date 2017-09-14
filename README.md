@@ -8,6 +8,10 @@
 **Histórico de Versões**    
 
 - 0.0.1 : **Atualização do SDK**  - 18/08/2017
+- 0.0.2 : **Melhorias e correção de bugs** - 14/09/2017
+          **Método de downalod de boleto**
+          **Método para limpeza de dados do cartão principal**
+          **Ajuste no tipo de dado do valor do pagamento com Carteira PagSeguro**
 
 * **
 
