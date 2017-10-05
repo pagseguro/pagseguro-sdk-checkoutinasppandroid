@@ -15,7 +15,7 @@
           Método para limpeza de dados do cartão principal
 
           Ajuste no tipo de dado do valor do pagamento com Carteira PagSeguro
-- 0.0.3 : ** Correção de bugs** - 05/10/2017
+- 0.0.3 : **Correção de bugs** - 05/10/2017
 
           Erro de certificado SSL no Android 4.4
 
