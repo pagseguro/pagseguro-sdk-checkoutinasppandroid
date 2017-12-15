@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.uol.pslibs</groupId>
   <artifactId>checkout-in-app</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <packaging>aar</packaging>
   <name>PSCheckout in App Android Library</name>
   <description>Biblioteca Android para pagamentos com o PagSeguro de produtos ou serviÃ§os</description>
