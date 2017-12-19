@@ -20,6 +20,11 @@
           Erro de certificado SSL no Android 4.4
 
           Erro ao remover o cartão da carteira
+- 0.0.4 : **Adição do campo extraAmount no pagamento com o Checkout Transparent** - 19/12/2017
+
+          Adição do campo extraAmount no pagamento com o Checkout Transparent
+
+          Refactory do app modelo          
 
 * **
 
