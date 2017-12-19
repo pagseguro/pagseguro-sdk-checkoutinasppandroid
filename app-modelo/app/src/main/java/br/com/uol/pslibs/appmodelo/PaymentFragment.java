@@ -31,8 +31,9 @@ import butterknife.OnClick;
 
 public class PaymentFragment extends Fragment {
 
-    private static final String SELLER_EMAIL = "qavendedor01@teste.com";
-    private static final String SELLER_TOKEN = "426CBBB94DF34CDDB738C72B3F4F163D";
+    private static final String SELLER_EMAIL = "<Email do vendedor>";
+    private static final String SELLER_TOKEN = "<Token do vendedor>";
+    private final String NOTIFICATION_URL_PAYMENT = "https://pagseguro.uol.com.br/lojamodelo-qa/RetornoAutomatico-OK.jsp";
 
     @BindView(R.id.wallet_payment_button)
     PaymentButton cardWallet;
@@ -201,8 +202,9 @@ public class PaymentFragment extends Fragment {
                 .setExpYear("18")
                 .setDescriptionPayment("Pagamento do teste de integração")
                 .setBirthDate("04/05/1988")
-//                .setExtraAmount("-5.00")
-                .setInstallments(null);
+                .setExtraAmount("-5.00")
+                .setInstallments(null)
+                .setNottificationUrl(NOTIFICATION_URL_PAYMENT);
         Toast.makeText(getActivity(),"Pagamento com o cartao de credito default",Toast.LENGTH_LONG).show();
         PSCheckout.payTransparentDefault(psTransparentDefaultRequest, psCheckoutListenerTransparent,
                 (AppCompatActivity) getActivity());
@@ -228,8 +230,9 @@ public class PaymentFragment extends Fragment {
                 .setTotalValue(2.50) //VALOR DA TRANSACAO
                 .setAmount(2.50) // MONTANTE DA TRANSACAO
                 .setDescriptionPayment("Pagamento do teste de integração") //DESCRICAO DO PRODUTO/SERVICO
-//                .setExtraAmount("-0.50")
-                .setQuantity(1);
+                .setExtraAmount("-0.50")
+                .setQuantity(1)
+                .setNottificationUrl(NOTIFICATION_URL_PAYMENT);
 
         Toast.makeText(getActivity(),"Pagamento com o boleto",Toast.LENGTH_LONG).show();
         PSCheckout.generateBooklet(psBilletRequest, psBilletListener, (AppCompatActivity) getActivity());
