@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.uol.pslibs.lojinhapagseguro">
+    package="br.com.uol.pslibs.appmodelo">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -10,30 +10,21 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
 
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="br.com.uol.pslibs.lojinhapagseguro.view.activities.SplashActivity"
-            android:theme="@style/SplashTheme"
+            android:name="br.com.uol.pslibs.appmodelo.MainActivity"
+            android:theme="@style/AppTheme"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="br.com.uol.pslibs.lojinhapagseguro.MainActivity"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan"/>
-        <activity android:name="com.cooltechworks.creditcarddesign.CardEditActivity"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan"/>
-
-
     </application>
 
 </manifest>

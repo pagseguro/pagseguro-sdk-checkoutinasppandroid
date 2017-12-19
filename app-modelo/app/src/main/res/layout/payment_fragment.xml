@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <br.com.uol.pslibs.checkout_in_app.wallet.view.components.PaymentButton
+        android:id="@+id/wallet_payment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </br.com.uol.pslibs.checkout_in_app.wallet.view.components.PaymentButton>
+
+    <Button
+        android:id="@+id/list_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/wallet_payment_button"
+        android:text="Lista de cartões"/>
+
+    <Button
+        android:id="@+id/main_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_card"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Cartão Principal"/>
+
+    <Button
+        android:id="@+id/wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_card"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Pag. Cartão de credito carteira"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/wallet"
+        android:text="logout"/>
+
+    <Button
+        android:id="@+id/installment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/logout"
+        android:text="Parcelamento"/>
+
+    <Button
+        android:id="@+id/credit_card_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/installment"
+        android:text="Pag. Cartão de Crédito Default"/>
+
+    <Button
+        android:id="@+id/billet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/credit_card_default"
+        android:text="Pag. Boleto"/>
+
+    <Button
+        android:id="@+id/credit_card_gateway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/billet"
+        android:text="Pag. Cartão de Crédito Geteway"/>
+
+</RelativeLayout>

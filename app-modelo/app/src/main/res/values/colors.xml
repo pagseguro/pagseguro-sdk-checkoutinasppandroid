@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#41C0C4</color>
-    <color name="color_primary_dark">#319295</color>
-    <color name="color_accent">#24A5D3</color>
-    <color name="colorDisabledButtom">#d3eef8</color>
-
-    <color name="text_color">#666666</color>
-    <color name="text_item_color">#555</color>
-    <color name="card_payment_background_color">#DCF0F6</color>
-
-    <color name="ps_lib_color_primary_dark">@color/color_primary_dark</color>
-    <color name="ps_lib_color_primary">@color/color_primary</color>
-    <color name="menu_selected">#DDD</color>
-    
-    <color name="loading_bar_color">#A5DC86</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
 </resources>
