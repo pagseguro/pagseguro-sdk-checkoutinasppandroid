@@ -24,7 +24,12 @@
 
           Adição do campo extraAmount no pagamento com o Checkout Transparent
 
-          Refactory do app modelo          
+          Refactory do app modelo       
+- 0.0.5 : **Inclusão de mensagens de erro** - 05/01/2018
+
+          Inclusão de mensagens de erro especificas para cada erro
+
+          Adição do campo creditCardName no app modelo para pagamento com Checkout Transparent     
 
 * **
 
