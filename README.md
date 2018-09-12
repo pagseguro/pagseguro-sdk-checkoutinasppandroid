@@ -79,7 +79,7 @@ A equipe do PagSeguro dará todo o suporte para sua integração do Checkout in 
 
 **Instalação**
 
-[Saiba como integrar seu aplicativo Android utilizando o Checkout in App](https://dev.pagseguro.uol.com.br/documentacao/pagamento-online/aplicativo-pagseguro/checkout-in-app/checkout-in-app-android)
+[Saiba como integrar seu aplicativo Android utilizando o Checkout in App](https://devs.pagseguro.uol.com.br/docs/checkout-in-app-android)
 
 
 * **
