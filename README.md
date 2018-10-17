@@ -29,7 +29,8 @@
 
           Inclusão de mensagens de erro especificas para cada erro
 
-          Adição do campo creditCardName no app modelo para pagamento com Checkout Transparent     
+          Adição do campo creditCardName no app modelo para pagamento com Checkout Transparent    
+          
 
 * **
 
