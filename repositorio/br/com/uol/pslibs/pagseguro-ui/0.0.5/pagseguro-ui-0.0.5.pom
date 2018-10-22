@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.uol.pslibs</groupId>
+  <artifactId>pagseguro-ui</artifactId>
+  <version>0.0.5</version>
+  <packaging>aar</packaging>
+  <name>PagSeguro UI Android Library</name>
+  <description>Biblioteca Android de componentes de UI</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
