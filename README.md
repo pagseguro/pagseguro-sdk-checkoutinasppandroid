@@ -7,7 +7,22 @@
 * **
 **Histórico de Versões**    
 
-- 0.0.1 : **Atualização do SDK**  - 18/08/2017
+- 0.0.6 : **Correção do item de segurança** - 22/10/2018
+- 0.0.5 : **Inclusão de mensagens de erro** - 05/01/2018
+
+          Inclusão de mensagens de erro especificas para cada erro
+
+          Adição do campo creditCardName no app modelo para pagamento com Checkout Transparent
+- 0.0.4 : **Adição do campo extraAmount no pagamento com o Checkout Transparent** - 19/12/2017
+
+          Adição do campo extraAmount no pagamento com o Checkout Transparent
+
+          Refactory do app modelo
+- 0.0.3 : **Correção de bugs** - 05/10/2017
+
+          Erro de certificado SSL no Android 4.4
+
+          Erro ao remover o cartão da carteira
 - 0.0.2 : **Melhorias e correção de bugs** - 14/09/2017
 
           Método de download de boleto
@@ -15,22 +30,7 @@
           Método para limpeza de dados do cartão principal
 
           Ajuste no tipo de dado do valor do pagamento com Carteira PagSeguro
-- 0.0.3 : **Correção de bugs** - 05/10/2017
-
-          Erro de certificado SSL no Android 4.4
-
-          Erro ao remover o cartão da carteira
-- 0.0.4 : **Adição do campo extraAmount no pagamento com o Checkout Transparent** - 19/12/2017
-
-          Adição do campo extraAmount no pagamento com o Checkout Transparent
-
-          Refactory do app modelo       
-- 0.0.5 : **Inclusão de mensagens de erro** - 05/01/2018
-
-          Inclusão de mensagens de erro especificas para cada erro
-
-          Adição do campo creditCardName no app modelo para pagamento com Checkout Transparent    
-          
+- 0.0.1 : **Atualização do SDK**  - 18/08/2017
 
 * **
 
