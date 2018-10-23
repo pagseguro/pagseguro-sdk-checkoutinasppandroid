@@ -7,7 +7,7 @@
 * **
 **Histórico de Versões**    
 
-- 0.0.6 : **Correção do item de segurança** - 22/10/2018
+- 0.0.6 : **Correção do item de segurança** - 23/10/2018
 - 0.0.5 : **Inclusão de mensagens de erro** - 05/01/2018
 
           Inclusão de mensagens de erro especificas para cada erro
