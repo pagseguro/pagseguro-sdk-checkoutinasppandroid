@@ -7,6 +7,13 @@
 * **
 **Histórico de Versões**    
 
+- 0.0.9 : **Correção de bug e atualização das dependências** - 09/01/2019
+
+          Correção de bug: API do Wallet apontado para o ambiente de QA em PRD
+
+          Atualizado as dependências para as versões mais recente
+
+          Removido as dependências desnecessárias
 - 0.0.6 : **Correção do item de segurança** - 23/10/2018
 - 0.0.5 : **Inclusão de mensagens de erro** - 05/01/2018
 
