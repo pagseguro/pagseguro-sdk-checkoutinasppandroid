@@ -3,6 +3,12 @@
 # Guia de Integração #
 * **
 **Biblioteca Android PagSeguro UOL - Checkout in App Manual de Uso**
+
+* **
+**Para utilizar o Checkout in App**
+
+Esta versão do Checkout In App foi descontinuada, e por isso, não será evoluída. Contudo, manteremos ela disponível no seu estado atual. Caso esta versão atenda o seu negócio e você queira fazer uso da mesma, entre em contato conosco através do link abaixo:
+[http://app.pipefy.com/public/form/503TdrFl](http://app.pipefy.com/public/form/503TdrFl)
  
 * **
 **Histórico de Versões**    
@@ -69,19 +75,6 @@ A biblioteca Checkout in App tem como foco auxiliar desenvolvedores que desejam 
 **Conceitos Básicos**
 
 Antes de fazer uso da biblioteca é importante que o desenvolvedor realize alguns procedimentos básicos, além de assimilar alguns conceitos importantes para o correto funcionamento de sua aplicação. É necessário ter em mãos o token da conta PagSeguro que será configurado como vendedor (Seller), tal token pode ser obtido no ibanking do PagSeguro. (Vide tópico abaixo).
-
-* **
-
-**Para utilizar o Checkout in App**
-
-O Checkout in App está operando em fase de piloto. Para fazer parte deste piloto você precisa seguir alguns passos:
-
-- Enviar um e-mail para checkoutinapp@pagseguro.com.br informando um telefone de contato e o e-mail da sua conta PagSeguro.  
-Se você for selecionado para o piloto, nossa equipe entrará em contato com você para obter mais informações e liberar a funcionalidade para a sua conta;
-- Implementar o Checkout in App em sua aplicação;
-- Encaminhar os feedbacks para a nossa equipe. Nesta fase do projeto a sua opinião será extremamente importante.
-
-A equipe do PagSeguro dará todo o suporte para sua integração do Checkout in App com a sua aplicação.
 
 * **
 
